@@ -38,7 +38,7 @@ if os.environ.get('READTHEDOCS', None) == 'True':
     install_requires.append('recommonmark')
 
 setup(
-    name='Tensorforce',
+    name='tensorforce',
     version=version,
     description='Tensorforce: a TensorFlow library for applied reinforcement learning',
     author='Tensorforce Team',

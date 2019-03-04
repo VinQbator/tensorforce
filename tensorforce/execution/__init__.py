@@ -15,6 +15,7 @@
 
 from tensorforce.execution.parallel_runner import ParallelRunner
 from tensorforce.execution.runner import Runner
+from tensorforce.execution.multi_runner import MultiRunner
 
 
-__all__ = ['ParallelRunner', 'Runner']
+__all__ = ['ParallelRunner', 'Runner', 'MultiRunner']
